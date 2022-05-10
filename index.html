@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenSearch Python Client Documentation &mdash; OpenSearch Python Client  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API Reference" href="api-ref.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> OpenSearch Python Client
+            <img src="_static/OpenSearch.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/LICENSE.txt">License</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/CONTRIBUTING.md">Contributing</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/DEVELOPER_GUIDE.md">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py">GitHub Repository</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">OpenSearch Python Client</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>OpenSearch Python Client Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/opensearch-project/opensearch-py/blob/main/docs/source/index.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="opensearch-python-client-documentation">
+<h1>OpenSearch Python Client Documentation<a class="headerlink" href="#opensearch-python-client-documentation" title="Permalink to this headline"></a></h1>
+<section id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api-ref.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/LICENSE.txt">License</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/CONTRIBUTING.md">Contributing</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/DEVELOPER_GUIDE.md">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/opensearch-project/opensearch-py">GitHub Repository</a></li>
+</ul>
+</div>
+<p><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/actions/workflows/unified-release.yml"><img alt="Release" src="https://github.com/opensearch-project/opensearch-py/actions/workflows/unified-release.yml/badge.svg" /></a>
+<a class="reference external" href="https://github.com/opensearch-project/opensearch-py/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/opensearch-project/opensearch-py/actions/workflows/ci.yml/badge.svg" /></a>
+<a class="reference external" href="https://github.com/opensearch-project/opensearch-py/actions/workflows/integration.yml"><img alt="Integration" src="https://github.com/opensearch-project/opensearch-py/actions/workflows/integration.yml/badge.svg" /></a>
+<a class="reference external" href="https://discuss.opendistrocommunity.dev/c/clients/"><img alt="Chat" src="https://img.shields.io/badge/chat-on%20forums-blue" /></a>
+<img alt="PRs welcome!" src="https://img.shields.io/badge/PRs-welcome!-success" /></p>
+<p><img alt="OpenSearch logo" src="https://github.com/opensearch-project/opensearch-py/raw/main/OpenSearch.svg" /></p>
+<p>OpenSearch Python Client</p>
+<ul class="simple">
+<li><p><span class="xref myst">Welcome!</span></p></li>
+<li><p><span class="xref myst">Getting Started</span></p></li>
+<li><p><span class="xref myst">Compatibility with OpenSearch</span></p></li>
+<li><p><span class="xref myst">Project Resources</span></p></li>
+<li><p><span class="xref myst">Code of Conduct</span></p></li>
+<li><p><span class="xref myst">License</span></p></li>
+<li><p><span class="xref myst">Copyright</span></p></li>
+</ul>
+</section>
+<section id="welcome">
+<h2>Welcome!<a class="headerlink" href="#welcome" title="Permalink to this headline"></a></h2>
+<p><strong>opensearch-py</strong> is <a class="reference external" href="https://aws.amazon.com/blogs/opensource/introducing-opensearch/">a community-driven, open source fork</a>
+of elasticsearch-py licensed under the <a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/LICENSE.txt">Apache v2.0 License</a>.
+For more information, see <a class="reference external" href="https://opensearch.org/">opensearch.org</a>.</p>
+<p>This is the low-level client. A high-level Python client is in the works, and will be available soon.</p>
+</section>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline"></a></h2>
+<p>To get started with the OpenSearch Python Client, see <span class="xref myst">Getting Started</span>.</p>
+</section>
+<section id="compatibility-with-opensearch">
+<h2>Compatibility with OpenSearch<a class="headerlink" href="#compatibility-with-opensearch" title="Permalink to this headline"></a></h2>
+<p>See <span class="xref myst">Compatibility</span>.</p>
+</section>
+<section id="project-resources">
+<h2>Project Resources<a class="headerlink" href="#project-resources" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://opensearch.org/">Project Website</a></p></li>
+<li><p><a class="reference external" href="https://opensearch.org/downloads.html">Downloads</a></p></li>
+<li><p><a class="reference external" href="https://opensearch.org/docs/">Documentation</a></p></li>
+<li><p>Need help? Try <a class="reference external" href="https://discuss.opendistrocommunity.dev/">Forums</a></p></li>
+<li><p><a class="reference external" href="https://opensearch.org/#principles">Project Principles</a></p></li>
+<li><p><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/CONTRIBUTING.md">Contributing to OpenSearch</a></p></li>
+<li><p><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/MAINTAINERS.md">Maintainer Responsibilities</a></p></li>
+<li><p><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/RELEASING.md">Release Management</a></p></li>
+<li><p><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/ADMINS.md">Admin Responsibilities</a></p></li>
+<li><p><a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/SECURITY.md">Security</a></p></li>
+</ul>
+</section>
+<section id="code-of-conduct">
+<h2>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permalink to this headline"></a></h2>
+<p>This project has adopted the
+<a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/CODE_OF_CONDUCT.md">Amazon Open Source Code of Conduct</a>.
+For more information see the <a class="reference external" href="https://aws.github.io/code-of-conduct-faq">Code of Conduct FAQ</a>, or contact
+<a class="reference external" href="mailto:opensource-codeofconduct&#37;&#52;&#48;amazon&#46;com">opensource-codeofconduct<span>&#64;</span>amazon<span>&#46;</span>com</a> with any additional questions or comments.</p>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline"></a></h2>
+<p>This project is licensed under the
+<a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/LICENSE.txt">Apache v2.0 License</a>.</p>
+</section>
+<section id="copyright">
+<h2>Copyright<a class="headerlink" href="#copyright" title="Permalink to this headline"></a></h2>
+<p>Copyright OpenSearch Contributors. See
+<a class="reference external" href="https://github.com/opensearch-project/opensearch-py/blob/main/NOTICE.txt">NOTICE</a> for details.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="api-ref.html" class="btn btn-neutral float-right" title="API Reference" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright OpenSearch Project Contributors.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
