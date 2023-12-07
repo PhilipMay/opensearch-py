@@ -3,3 +3,4 @@
 ```{eval-rst}
 .. autoclass:: opensearchpy.JSONSerializer
 ```
+

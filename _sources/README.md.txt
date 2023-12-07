@@ -9,35 +9,34 @@
 
 OpenSearch Python Client
 
-- [Welcome!](#welcome)
-- [Getting Started](#getting-started)
-- [Compatibility with OpenSearch](#compatibility-with-opensearch)
-- [Project Resources](#project-resources)
-- [Code of Conduct](#code-of-conduct)
-- [License](#license)
-- [Copyright](#copyright)
+- [Welcome!](https://github.com/opensearch-project/opensearch-py#welcome)
+- [User Guide](https://github.com/opensearch-project/opensearch-py#user-guide)
+- [API Doc](https://opensearch-project.github.io/opensearch-py/)
+- [Compatibility with OpenSearch](https://github.com/opensearch-project/opensearch-py#compatibility-with-opensearch)
+- [Project Resources](https://github.com/opensearch-project/opensearch-py#project-resources)
+- [Code of Conduct](https://github.com/opensearch-project/opensearch-py#code-of-conduct)
+- [License](https://github.com/opensearch-project/opensearch-py#license)
+- [Copyright](https://github.com/opensearch-project/opensearch-py#copyright)
 
-## Welcome!
+# Welcome!
 
 **opensearch-py** is [a community-driven, open source fork](https://aws.amazon.com/blogs/opensource/introducing-opensearch/)
 of elasticsearch-py licensed under the [Apache v2.0 License](https://github.com/opensearch-project/opensearch-py/blob/main/LICENSE.txt). 
-For more information, see [opensearch.org](https://opensearch.org/).
+For more information, see [opensearch.org](https://opensearch.org/) and the [API Doc](https://opensearch-project.github.io/opensearch-py/).
 
-This is the low-level client. A high-level Python client is in the works, and will be available soon.
+## User Guide
 
-## Getting Started
-
-To get started with the OpenSearch Python Client, see [Getting Started](GETTING_STARTED.md).
+To get started with the OpenSearch Python Client, see [User Guide](https://github.com/opensearch-project/opensearch-py/blob/main/USER_GUIDE.md). This repository also contains [working samples](https://github.com/opensearch-project/opensearch-py/tree/main/samples) and [benchmarks](https://github.com/opensearch-project/opensearch-py/tree/main/benchmarks).
 
 ## Compatibility with OpenSearch
 
-See [Compatibility](COMPATIBILITY.md).
+See [Compatibility](https://github.com/opensearch-project/opensearch-py/blob/main/COMPATIBILITY.md).
 
 ## Project Resources
 
 * [Project Website](https://opensearch.org/)
 * [Downloads](https://opensearch.org/downloads.html)
-* [Documentation](https://opensearch.org/docs/)
+* [Documentation](https://opensearch.org/docs/latest/clients/python/)
 * Need help? Try [Forums](https://discuss.opendistrocommunity.dev/)
 * [Project Principles](https://opensearch.org/#principles)
 * [Contributing to OpenSearch](https://github.com/opensearch-project/opensearch-py/blob/main/CONTRIBUTING.md)
